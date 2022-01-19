@@ -1,5 +1,5 @@
 <!--
-title:   CentsOS 6.x  [SSL: DECRYPTION_FAILED_OR_BAD_RECORD_MAC]  
+title:   CentsOS 6.x  [SSL: DECRYPTION_FAILED_OR_BAD_RECORD_MAC]
 tags:    CentOS6.x
 id:      db3eca8ea34fb4a288ee
 private: false
@@ -31,7 +31,7 @@ Could not install packages due to an EnvironmentError: [SSL: DECRYPTION_FAILED_O
 
 確認
 
-```
+`
 [root@localhost ~]# pip install --upgrade pip
 Collecting pip
   Downloading https://files.pythonhosted.org/packages/d8/f3/413bab4ff08e1fc4828dfc59996d721917df8e8583ea85385d51125dceff/pip-19.0.3-py2.py3-none-any.whl (1.4MB)
@@ -41,4 +41,3 @@ Installing collected packages: pip
     Uninstalling pip-19.0.2:
       Successfully uninstalled pip-19.0.2
 Successfully installed pip-19.0.3
-```
